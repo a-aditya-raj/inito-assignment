@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    reactStrictMode: true
+    reactStrictMode: true,
+    basePath: '/inito-assignment',
+    output: 'export'
 };
 const imageConfig = {
     images: {
@@ -19,6 +20,7 @@ const imageConfig = {
                 pathname: '/**',
             }
         ],
+        unoptimized: true
     },
 }
 
